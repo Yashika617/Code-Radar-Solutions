@@ -5,8 +5,11 @@ int main() {
     if(a>0){
         ("Positive");
     }
-    else{
+    if(a<0){
         ("Negative");
+    }
+    else{
+        ("zero")
     }
     return 0;
 }
