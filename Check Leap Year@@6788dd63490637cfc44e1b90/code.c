@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int year;
-    if (year%4==0){
+    if ((year%4==0 && year%100!=0) ||(yera%400==0)){
         printf("Leap Year"\n);
     }
     else{
