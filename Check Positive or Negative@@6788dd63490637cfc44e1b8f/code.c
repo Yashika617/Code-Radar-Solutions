@@ -5,7 +5,7 @@ int main() {
     if(a>0){
         ("Positive");
     }
-    if(a<0){
+    else if(a<0){
         ("Negative");
     }
     else{
