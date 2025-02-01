@@ -9,7 +9,7 @@ int main() {
         ("Negative");
     }
     else{
-        ("zero")
+        ("Zero")
     }
     return 0;
 }
