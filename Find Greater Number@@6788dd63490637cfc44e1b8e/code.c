@@ -5,5 +5,8 @@ int main() {
     if (a>b){
         print("a");
     }
+    else{
+        print("b")
+    }
     return 0;
 }
