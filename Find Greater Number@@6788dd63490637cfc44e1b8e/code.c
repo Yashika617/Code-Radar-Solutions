@@ -3,10 +3,10 @@ int main() {
     int a,b,greatest;
     scanf("%d %d",&a,&b);
     if (a>b){
-        greatest = a;
+        printf("%d\n",a);
     }
     else{
-        greatest = b;
+        printf("%d\n",b);
     }
     return 0;
 }
