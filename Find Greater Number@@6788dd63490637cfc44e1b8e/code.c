@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main() {
-    int a,b;
+    int a,b,greatest;
     scanf("%d %d",&a,&b);
     if (a>b){
-        print("a");
+        greatest =a;
     }
     else{
-        print("b")
+        greatest b;
     }
     return 0;
 }
