@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main() {
-    float sp,cp;
-    scanf("%f%f",&sp,&cp);
+    float cp,sp;
+    scanf("%f%f",&cp,&sp);
     if (sp>cp){
-        printf("Profit\n",sp-cp);
+        printf("Profit\n");
     }
     if (cp>sp){
-        printf("Loss\n",cp-sp);
+        printf("Loss\n");
     }
     else{
         printf("No Profit No Loss");
