@@ -6,10 +6,10 @@ int main() {
         printf("Isosceles\n");
     }
     else if (a==b && b==c){
-        printf("Equilateral");
+        printf("Equilateral\n");
     }
     else {
-        printf("Scalene");
+        printf("Scalene\n");
     }
     return 0;
 }
