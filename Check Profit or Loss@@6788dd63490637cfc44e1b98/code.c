@@ -2,10 +2,10 @@
 int main() {
     int sp,cp;
     scanf("%d%d",&sp,&cp);
-    if (sp>cp){
+    if (sp>=cp){
         printf("Profit\n");
     }
-    if (cp>sp){
+    if (cp>=sp){
         printf("Loss\n");
     }
     else{
