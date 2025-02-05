@@ -2,6 +2,7 @@
 int main() {
     int num;
     printf("");
+    scanf("%d",&num);
     if (num &1){
         printf("Set\n",num);
     }
