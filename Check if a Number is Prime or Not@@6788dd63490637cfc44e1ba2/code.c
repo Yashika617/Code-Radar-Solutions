@@ -10,13 +10,15 @@ int main(){
     }else{
         for(j=2;j<1;j++){
             if(i%j ==0){
-            printf("Not prime");
-            p=p+1;
+            p++;
             break;
             }
         }
         if(p==0){
             printf("Prime");
+        }
+        else {
+            printf("Not Prime");
         }
     }
 
