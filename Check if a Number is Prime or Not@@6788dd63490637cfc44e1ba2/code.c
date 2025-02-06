@@ -1,8 +1,8 @@
 #include <stdio.h>
-int main() {
+int main(){
     int i,j,p;
     scanf("%d",&i);
-    if(i=1){
+    if(i==1){
         printf("Not Prime");
     }
     else if(i==2){
@@ -19,5 +19,4 @@ int main() {
             printf("Prime");
         }
     }
-    return 0;
 }
