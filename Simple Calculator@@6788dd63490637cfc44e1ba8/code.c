@@ -6,7 +6,7 @@ int main() {
     if (k=='+'){
         printf("%d",i+j);
     }
-    else if(k=='-'){
+    else if (k=='-'){
         printf("%d",i-j);
     }
     else if (k=='*'){
@@ -17,9 +17,6 @@ int main() {
             printf("error");
         }else{
             printf("%d",i/j);
-        }
-        else{
-            printf("error");
         }
     }
         return 0;
