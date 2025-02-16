@@ -42,4 +42,5 @@ int main(){
         default:
         printf("not a valid month");
     }
+    return 0;
 }
